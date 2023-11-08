@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*To remove border space  */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(55deg, rgb(56, 91, 108), rgb(8, 37, 57));
+}
+.navbar-scrolled {
+  background-color: rgb(6, 30, 37);
+}
+.navbar-brand {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: white;
+}
+.nav-link {
+  color: white;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #03212d;
+}
+.link-custom {
+  color: #28b9f3;
+}
+
+.col-lg-8 {
+  color: #03212d;
+}
+.text-brand {
+  color: #28b9f3;
+}
+.btn {
+  padding: 10px 24px;
+  border-radius: 0;
+  border-width: 2px;
+  font-weight: 500;
+}
+.btn-brand {
+  background-color: #28b9f3;
+  border-color: #28b9f3;
+}
+
+.btn-brand:hover {
+  background-color: transparent;
+  color: #28b9f3;
+  border-color: #28b9f3;
+}
+img {
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+}
+.bg-base {
+  background-color: #0b526e;
+}
+.shadow-effect {
+  transition: all 0.5s;
+}
+.shadow-effect:hover {
+  box-shadow: -6px 6px 0 0 var(#28b9f3);
+}
+.iconbox {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  background-color: var(#28b9f3);
+  color: var(#03212d);
+}
+.footer {
+  color: #28b9f3;
+}
+.row {
+  color: white;
+}
+.heading {
+  text-decoration: underline;
+}
+
+.spacing {
+  margin-bottom: 30px;
+}
+
+.navbar-scrolled {
+  background-color: black;
+}
+
+@media (max-width: 998px) {
+  html {
+    font-size: auto;
+  }
+  .heading {
+    text-decoration: underline;
+    font-size: auto;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
